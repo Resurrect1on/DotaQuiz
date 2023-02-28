@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     func progressCheck () {
-        if chosenHeroes.count == 30 {
+        if chosenHeroes.count == 120 {
             let chosenLast = chosenHeroes.last!
             chosenHeroes.removeAll()
             chosenHeroes.append(chosenLast)
